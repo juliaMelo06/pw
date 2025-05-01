@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilização da imagem */
+.img.caixa {
+    width: 100%; /* ocupa toda a largura */
+    max-width: 600px; /* limite max da largura da imagem */
+    margin: 20px 0;
+    text-align: center;
+}
+
+.img.caixa img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Container do formulário centralizado */
+.container {
+    width: 100%;
+    max-width: 450px;
+    background-color: #ffffffa5;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 40px; /* espaço abaixo do formulário */
+}
+
+h1 {
+    text-align: center;
+    color: #053d18;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #124d04;
+    outline: none;
+}
+
+button {
+    background-color: #074e2ea7;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #074e2e;
+}
